@@ -1,0 +1,32 @@
+#mainNav {
+  height: 130px;
+  opacity: 80%;
+}
+
+#main1 {
+  background-image: linear-gradient(
+      to left,
+      rgba(158, 182, 131, 0.5),
+      rgba(46, 44, 44, 0.5)
+    ),
+    url("/assets/img/circuit.png");
+}
+
+#mainNav .navbar-nav > li > a {
+  font-size: 1.5em;
+  color: #f8d374;
+  opacity: 100%;
+}
+
+#mainNav .navbar-nav > li > a:hover {
+  color: black;
+}
+
+#mainNav > .container > a:hover {
+  color: black;
+}
+
+#mainNav > .container > #logo {
+  position: absolute;
+  line-height: inherit;
+}
