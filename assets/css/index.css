@@ -9,7 +9,7 @@
       rgba(158, 182, 131, 0.5),
       rgba(46, 44, 44, 0.5)
     ),
-    url("/assets/img/circuit.png");
+    url("./assets/img/circuit.png");
 }
 
 #mainNav .navbar-nav > li > a {
