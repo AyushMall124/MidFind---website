@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 #mainNav {
   height: 130px;
   opacity: 80%;
@@ -22,15 +25,25 @@
   color: black;
 }
 
-#mainNav > .container > a:hover {
+#mainNav > .container > .nav-brand:hover {
   color: black;
-}
-
-#mainNav > .container > #logo {
-  position: absolute;
-  line-height: inherit;
 }
 
 #problem {
   padding: 0;
+}
+
+.navbar-brand .js-scroll-trigger #hea {
+  float: left;
+  width: 100%;
+}
+
+#hea:hover {
+  color: black;
+}
+
+#logo {
+  float: left;
+  margin-top: 20px;
+  margin-right: -50px;
 }
