@@ -36,6 +36,7 @@
 .navbar-brand .js-scroll-trigger #hea {
   float: left;
   width: 100%;
+  color: black;
 }
 
 #hea:hover {
